@@ -1,6 +1,6 @@
 {
   "name": "aor-color-picker-input",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "<ColorPickerInput /> component for admin-on-rest, useful for picking color in admin GUIs",
   "main": "lib/index.js",
   "scripts": {
