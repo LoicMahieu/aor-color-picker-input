@@ -2,7 +2,7 @@
 import React, { PropTypes } from 'react'
 import ColorPicker from 'material-ui-color-picker'
 
-const ColorInput = ({
+const ColorPickerInput = ({
   id,
   disabled,
   label,
@@ -23,7 +23,7 @@ const ColorInput = ({
   />
 )
 
-ColorInput.propTypes = {
+ColorPickerInput.propTypes = {
   addField: PropTypes.bool.isRequired,
   addLabel: PropTypes.bool.isRequired,
   input: PropTypes.object,
@@ -32,11 +32,11 @@ ColorInput.propTypes = {
   source: PropTypes.string
 }
 
-ColorInput.defaultProps = {
+ColorPickerInput.defaultProps = {
   addField: true,
   addLabel: false,
   options: {},
   record: {}
 }
 
-export default ColorInput
+export default ColorPickerInput

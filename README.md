@@ -1,6 +1,6 @@
-# `<ColorInput>` for admin-on-rest
+# `<ColorPickerInput>` for admin-on-rest
 
-<ColorInput> component for admin-on-rest, useful for picking color in admin GUIs.
+<ColorPickerInput> component for admin-on-rest, useful for picking color in admin GUIs.
 
 Binding of [`<ColorPicker />`](https://github.com/LoicMahieu/material-ui-color-picker) for [admin-on-rest](https://github.com/marmelab/admin-on-rest).
 
@@ -21,12 +21,12 @@ import {
   LongTextInput,
   TextInput
 } from 'admin-on-rest/mui'
-import ColorInput from 'aor-color-input'
+import ColorPickerInput from 'aor-color-input'
 
 export const PostEdit = (props) => (
   <Edit>
     <TextInput source="title" />
-    <ColorInput source="color" />
+    <ColorPickerInput source="color" />
   </Edit>
 )
 ```

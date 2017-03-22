@@ -1,7 +1,7 @@
 {
-  "name": "aor-color-input",
+  "name": "aor-color-picker-input",
   "version": "0.0.0",
-  "description": "<ColorInput /> component for admin-on-rest, useful for picking color in admin GUIs",
+  "description": "<ColorPickerInput /> component for admin-on-rest, useful for picking color in admin GUIs",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loicmahieu/aor-color-input.git"
+    "url": "git+https://github.com/loicmahieu/aor-color-picker-input.git"
   },
   "keywords": [
     "reactjs",
@@ -28,9 +28,9 @@
   "author": "Loic Mahieu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/loicmahieu/aor-color-input/issues"
+    "url": "https://github.com/loicmahieu/aor-color-picker-input/issues"
   },
-  "homepage": "https://github.com/loicmahieu/aor-color-input#readme",
+  "homepage": "https://github.com/loicmahieu/aor-color-picker-input#readme",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-plugin-add-module-exports": "^0.2.1",
