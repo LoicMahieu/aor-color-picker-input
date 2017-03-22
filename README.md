@@ -1,5 +1,7 @@
 # `<ColorPickerInput>` for admin-on-rest
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/LoicMahieu/aor-color-input.svg)](https://greenkeeper.io/)
+
 <ColorPickerInput> component for admin-on-rest, useful for picking color in admin GUIs.
 
 Binding of [`<ColorPicker />`](https://github.com/LoicMahieu/material-ui-color-picker) for [admin-on-rest](https://github.com/marmelab/admin-on-rest).
